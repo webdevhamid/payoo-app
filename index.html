@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo-MFH</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <main class="flex justify-center items-center h-lvh">
+      <div class="mockup-phone">
+        <div class="camera"></div>
+        <div class="display">
+          <div class="artboard artboard-demo phone-1">
+            <!-- Login form  -->
+            <div class="hero bg-base-200 min-h-screen">
+              <div class="hero-content flex-col">
+                <div class="text-center lg:text-left">
+                  <h1 class="text-2xl font-bold">Login now!</h1>
+                </div>
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Mobile Number</span>
+                      </label>
+                      <input
+                        type="number"
+                        placeholder="Enter you number"
+                        class="input input-bordered"
+                        required
+                        id="phone-number"
+                      />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">4 Digit Pin</span>
+                      </label>
+                      <input
+                        type="password"
+                        placeholder="Enter your pin"
+                        class="input input-bordered"
+                        required
+                        autocomplete="on"
+                        id="pin-number"
+                      />
+                      <label class="label">
+                        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                      </label>
+                    </div>
+                    <div class="form-control mt-6">
+                      <button class="btn btn-primary" id="login-btn">Login</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
