@@ -22,6 +22,7 @@ loginBtn.addEventListener("click", function (e) {
   if (+phoneNum === tempPhone && +pin === tempPin) {
     console.log("Logged In");
     console.log(+phoneNum, +pin);
+    location.href = "./home.html";
   } else {
     console.log("Wrong Credentials :(");
   }
